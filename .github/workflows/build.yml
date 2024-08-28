@@ -3,14 +3,14 @@ name: Build
 on:
   push:
     paths:
-      - ".github/workflows/build.yml"
-      - "app/**"
+      - '.github/workflows/build.yml'
+      - 'app/**'
   pull_request:
     paths:
-      - ".github/workflows/build.yml"
-      - "app/**"
+      - '.github/workflows/build.yml'
+      - 'app/**'
   schedule:
-    - cron: "22 4 * * *"
+    - cron: '22 4 * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ github.event_name == 'schedule' }}
@@ -59,7 +59,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: '14.x'
       - name: Install @actions/artifact
         run: npm install @actions/artifact
       - name: Build
@@ -192,7 +192,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: '14.x'
       - name: Install js-yaml
         run: npm install js-yaml
       - uses: actions/github-script@v7
@@ -221,7 +221,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: '14.x'
       - name: Install js-yaml
         run: npm install js-yaml
       - uses: actions/github-script@v7
@@ -350,7 +350,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "14.x"
+          node-version: '14.x'
       - name: Install js-yaml
         run: npm install js-yaml
       - name: Aggregate Metadata
