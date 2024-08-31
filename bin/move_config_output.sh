@@ -13,8 +13,10 @@ TIMESTAMP=$(date +"%Y%m%d%H%M")
 #
 # I prefer the ssh method, but the credentials helper method works as well
 
-cp -R config/. ./app/boards/shields/southpaw75
 git pull --ff-only
+
+cp -R config/. ./app/boards/shields/southpaw75
+
 git add .
 git commit -m "$TIMESTAMP-NEW-BOARD-BUILT"
 git push
