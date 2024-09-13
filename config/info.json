@@ -65,7 +65,7 @@
         { "label":      "3", "row": 3, "col":  2, "x":     2, "y": 3 },
         { "label":  "Enter", "row": 3, "col":  3, "x":     3, "y": 3, "h": 2 },
         { "label": "LShift", "row": 3, "col":  4, "x":     4, "y": 3,         "w": 1.25 },
-        { "label": "", "row": 3, "col":  5, "x": 5, "y": 3 },
+        { "label": "", "row": 3, "col":  5, "x": 5.25, "y": 3 },
         { "label":      "Z", "row": 3, "col":  7, "x":  6.25, "y": 3 },
         { "label":      "X", "row": 3, "col":  8, "x":  7.25, "y": 3 },
         { "label":      "C", "row": 3, "col":  9, "x":  8.25, "y": 3 },
